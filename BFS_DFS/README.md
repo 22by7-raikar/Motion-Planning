@@ -1,8 +1,4 @@
-# RBE 550 - Basic Search Algorithms Implementation
-
-## Overview
-
-In this assignment, you are going to implement **BFS** and **DFS** algorithms with Python 3. This template is provided to you as a starting point. After you finish coding, you would be able to create your own map to test different algorithms, and visualize the path found by them.
+**BFS** and **DFS** algorithms with Python 3
 
 Files included:
 
