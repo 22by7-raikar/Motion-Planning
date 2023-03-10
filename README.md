@@ -1,4 +1,5 @@
 # Motion-Planning
 Path Finding Algorithm Implementation
 
-Algorithms Implemented on 2D grid map with binary representation of obstacle and free spaces.
+Algorithms Implemented on 2D discretized grid maps with binary representation of obstacle and free spaces.
+BFS, DF, A*, Dijsktra, PRM, RRT, RRT*
