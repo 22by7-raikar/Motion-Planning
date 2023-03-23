@@ -1,6 +1,7 @@
 # Standard Algorithm Implementation
 # Sampling-based Algorithms PRM
 
+import math
 import matplotlib.pyplot as plt
 import numpy as np
 import networkx as nx
