@@ -55,7 +55,7 @@ class PRM:
             euclidean distance between two points
         '''
         ### YOUR CODE HERE ###
-        return np.sqrt(np.hypot((point1[1] - point2[1]), (point1[0] - point2[0])))
+        return math.dist([node1.row, node1.col], [node2.row, node2.col])
 
     def uniform_sample(self, n_pts):
         '''Use uniform sampling and store valid points
