@@ -46,6 +46,17 @@ class PRM:
             xpt = xpt + xstep
             ypt = ypt + ystep
         return False
+    
+        """ ALTERNATIVELY
+        row_div = np.linspace(node1.row, node2.row)  # default number of divisions is 50
+        col_div = np.linspace(node1.col, node2.col)
+
+        line = zip(row_div, col_div)
+        for point in line:
+            if self.map_array[int(point[0])][int(point[1])] == 0:
+                return True
+        return False
+        """
 
     def dis(self, point1, point2):
         '''Calculate the euclidean distance between two points
