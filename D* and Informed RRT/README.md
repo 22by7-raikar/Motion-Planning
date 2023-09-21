@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this assignment, you are going to implement **D*** and **Informed RRT*** algorithms.
+Implementation of **D*** and **Informed RRT*** algorithms.
 
 ## Instruction
 
@@ -33,6 +33,8 @@ The second step is to move from start to goal. If any change is detected in the 
 **Reference: [Optimal and Efficient Path Planning for Partially-Known Environments](http://web.mit.edu/16.412j/www/html/papers/original_dstar_icra94.pdf).**
 
 ## Informed RRT*
+
+Parts:
 
 1. The first part is within the **main** function of informed RRT, where the c_best - best length of the path, is updated when a path is found. 
 2. The second part is within the **sample** function. Different sampling functions can be substituted based on the c_best value. 
