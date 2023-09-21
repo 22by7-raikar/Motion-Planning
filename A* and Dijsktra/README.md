@@ -2,27 +2,21 @@
 
 ## Overview
 
-Implementing **BFS** and **DFS**. Visualizing the path found by them.
+Implemented **Dijkstra** and **A*** algorithms.
+
 Files included:
 
-- **search.py** algorithms implementation.
-- **main.py** is the script that provides helper functions that load the map from csv files and visualize the map and path.
-- **map.csv** is the map file.
-- **test_map.csv** restores a test map for doc test purpose only.
+- **search.py** contains the implementation of the algorithms.
+- **main.py** is the script that provides helper functions that load the map from CSV files and visualize the map and path.
+- **map.csv** 
+- **test_map.csv** restores a test map for doc test purpose only
 
-## Get Started
-
-**Run**
+Run:
 
 `python search.py`
 
-When running **search.py** as a main function, it will run a doc test for all the algorithms. It loads **test_map.csv** as the map for testing.
-Which just shows that the algorithms are working in this simple **test_map.csv** with its given start and end position. (It may still fail, for example, if you change the goal to an obstacle.)
+## Details
 
----
-
-For visualization, please run:
-
-`python main.py`
-
-2 maps shown representing the results of 2 algorithms. As said before, there would be no path shown in the graph as you haven't implemented anything yet. The **main.py** loads the map file **map.csv**, which you are free to modify to create your own map.
+1. The coordinate system used here is **[row, col]**, which could be different from [x, y] in Cartesian coordinates. 
+2. The cost to move each step is set to be 1. The heuristic for each node is its Manhattan distance to the goal.
+3. Nodes explored as **"right, down, left, up"**, which means "[0, +1], [+1, 0], [0, -1], [-1, 0]" in coordinates.
